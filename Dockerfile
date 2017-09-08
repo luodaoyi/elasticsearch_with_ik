@@ -6,4 +6,3 @@ RUN rm -rf plugin/ik/config
 COPY config plugin/ik/
 
 USER elasticsearch
-CMD ["/bin/bash", "bin/es-docker"]
